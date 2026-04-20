@@ -1,25 +1,25 @@
 # pdf-to-word-ocr
 
-git commit -m "Initial commit: PDF to Word OCR project"
-
-!pip install pytesseract python-docx pdf2image Pillow
-
-import pytesseract
-from pdf2image import convert_from_path
-from docx import Document
-from urllib.request import urlretrieve
-import os
-import re
-
-
-pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
-
-import pytesseract
-from pdf2image import convert_from_path
-from docx import Document
-import re
-
-pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
+    git commit -m "Initial commit: PDF to Word OCR project"
+    
+    !pip install pytesseract python-docx pdf2image Pillow
+    
+    import pytesseract
+    from pdf2image import convert_from_path
+    from docx import Document
+    from urllib.request import urlretrieve
+    import os
+    import re
+    
+    
+    pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
+    
+    import pytesseract
+    from pdf2image import convert_from_path
+    from docx import Document
+    import re
+    
+    pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
 
 def scanned_pdf_to_word_local(pdf_path, output_docx):
     print("Using uploaded PDF:", pdf_path)
